@@ -70,7 +70,7 @@ public class Runner {
         System.out.println("-------------");
     }
     private static void removeFromMap(Map<?,?> map,String name,RemoveInterface removeInterface){
-        Remove remove=new Remove(removeInterface);
+        Remover remove=new Remover(removeInterface);
         remove.remove(map,name);
     }
 
